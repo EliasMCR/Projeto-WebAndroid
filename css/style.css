@@ -1,33 +1,28 @@
 @charset "UTF-8";
-/*config globais*/
-*{
-    padding: 0px;
+
+* {
     margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
- body {
+html, body {
     height: 100vh;
     width: 100vw;
 }
- body {
-    background: url('../img/background.jpg') no-repeat top center;
-    background-attachment: fixed;
-    background-size: cover; 
+body {
+    background: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 main {
-   position: relative;
-    
-
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
 }
-section#tel {
+
+main#celular {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-   
-    background: url('../img/smartphone.png') no-repeat;
-    width: 350px;
-    height: 700px;
-   
 }
