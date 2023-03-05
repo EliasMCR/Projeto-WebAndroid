@@ -5,9 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
-    <link rel="stylesheet" href="../css/android.css">
+    
+    <style>
+                @charset "utf-8";
+
+        * {
+            padding: 0PX;
+            margin: 0px;
+        }
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+        img#background {
+            width: 100vw;
+        }
+        main {
+            position: relative;
+            left: 0px;
+             top: 0px;
+             height: 100vh;
+         }
+
+        img#bottomgallery {
+            position: absolute;
+            top: 1210px;
+            left: 750px;
+
+            width: 140px;         
+        }
+
+        img#bottomgallery:hover {
+            width: 145px;
+        }
+
+
+    </style>
 </head>
 <body>
-    <img src="../img/main.jpg" alt="jpg">
+        <main>
+            <section>
+                <img src="../img/main.jpg" alt="jpg" id="background">
+            </section>
+            <section>
+                <a href="galeria.html">
+                    <img src="../img/bottomgaleria.png" alt="" id="bottomgallery">
+                </a>
+            </section>
+        </main>
+    
+
 </body>
 </html>
