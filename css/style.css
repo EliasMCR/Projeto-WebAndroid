@@ -23,6 +23,47 @@ main {
     height: 100vh;
 }
 
-main#celular {
+section#celular {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+
+    height: 700px;
+    width: 750px;
+    background: url('../img/smartphone.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+iframe#tela {
+    position: relative;
+    top:21px;
+    left: 214px;
+
+    width: 321px;
+    height: 655.5px;
+    border-radius: 8px;
+
+}
+
+section#bottomgallery {
+    position: relative;
+    top: 505px;
+    left: 568px;
+}
+
+.sbottom {
+    height: 50px;
+    width: 50px;
+}
+
+ img:hover {
+    transform: translate(-3px, -3px);
+    transition: transform 0.3s, border 1s;
+
+}
+a {
+    text-decoration: none;
 }
